@@ -3,7 +3,7 @@
   (general
     (thickness 1.6)
     (drawings 8)
-    (tracks 97)
+    (tracks 149)
     (zones 0)
     (modules 9)
     (nets 66)
@@ -710,25 +710,22 @@
       (net 65 /XL2))
   )
 
+  (gr_line (start 119.38 43.18) (end 119.38 133.35) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 152.4 133.35) (end 152.4 43.18) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 152.4 43.18) (end 149.86 43.18) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 152.4 149.86) (end 152.4 43.18) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 135.89 158.75) (end 152.4 149.86) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 119.38 149.86) (end 135.89 158.75) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 119.38 43.18) (end 119.38 149.86) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 135.89 142.24) (end 152.4 133.35) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 119.38 133.35) (end 135.89 142.24) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 120.65 43.18) (end 119.38 43.18) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 121.92 43.18) (end 120.65 43.18) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 121.92 43.18) (end 149.86 43.18) (layer Edge.Cuts) (width 0.15))
 
+  (segment (start 134.77 60.96) (end 133.94 60.96) (width 0.25) (layer F.Cu) (net 2))
   (segment (start 144.53724 52.41036) (end 144.8776 52.07) (width 0.25) (layer F.Cu) (net 55))
   (segment (start 143.53794 52.41036) (end 144.53724 52.41036) (width 0.25) (layer F.Cu) (net 55))
   (segment (start 133.16966 44.61002) (end 139.91844 44.61002) (width 0.25) (layer F.Cu) (net 55))
   (segment (start 127 44.9325) (end 127.7875 44.9325) (width 0.25) (layer F.Cu) (net 55))
   (segment (start 128.10998 44.61002) (end 133.16966 44.61002) (width 0.25) (layer F.Cu) (net 55))
   (segment (start 127.7875 44.9325) (end 128.10998 44.61002) (width 0.25) (layer F.Cu) (net 55))
-  (segment (start 140.91774 44.61002) (end 141.07776 44.45) (width 0.25) (layer F.Cu) (net 55))
-  (segment (start 139.91844 44.61002) (end 140.91774 44.61002) (width 0.25) (layer F.Cu) (net 55))
-  (via (at 144.78 44.45) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 55))
-  (segment (start 141.07776 44.45) (end 144.78 44.45) (width 0.25) (layer F.Cu) (net 55))
   (segment (start 127 49.53) (end 125.73 50.8) (width 0.25) (layer F.Cu) (net 55))
   (via (at 125.73 50.8) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 55))
   (segment (start 127.7875 62.23) (end 129.54 62.23) (width 0.25) (layer F.Cu) (net 55))
@@ -737,11 +734,40 @@
   (via (at 145.415 51.435) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 55))
   (segment (start 144.8776 51.9724) (end 145.415 51.435) (width 0.25) (layer F.Cu) (net 55))
   (segment (start 145.415 51.435) (end 142.24 54.61) (width 0.25) (layer B.Cu) (net 55))
-  (segment (start 133.94 62.85) (end 133.94 62.23) (width 0.25) (layer F.Cu) (net 4))
-  (segment (start 134.77 60.96) (end 133.94 60.96) (width 0.25) (layer F.Cu) (net 2))
   (segment (start 133.94 58.42) (end 133.94 59.69) (width 0.25) (layer F.Cu) (net 55))
   (segment (start 133.94 59.69) (end 132.08 59.69) (width 0.25) (layer F.Cu) (net 55))
   (segment (start 132.08 59.69) (end 129.54 62.23) (width 0.25) (layer F.Cu) (net 55))
+  (segment (start 129.54 60.96) (end 135.89 54.61) (width 0.25) (layer B.Cu) (net 55))
+  (segment (start 129.54 62.23) (end 129.54 60.96) (width 0.25) (layer B.Cu) (net 55))
+  (segment (start 132.08 50.8) (end 135.89 54.61) (width 0.25) (layer B.Cu) (net 55))
+  (segment (start 125.73 50.8) (end 132.08 50.8) (width 0.25) (layer B.Cu) (net 55))
+  (segment (start 123.19 50.8) (end 125.73 50.8) (width 0.25) (layer F.Cu) (net 55))
+  (segment (start 121.92 49.53) (end 123.19 50.8) (width 0.25) (layer F.Cu) (net 55))
+  (segment (start 121.92 45.72) (end 121.92 49.53) (width 0.25) (layer F.Cu) (net 55))
+  (segment (start 123.19 44.45) (end 121.92 45.72) (width 0.25) (layer F.Cu) (net 55))
+  (segment (start 127 44.9325) (end 126.5175 44.45) (width 0.25) (layer F.Cu) (net 55))
+  (segment (start 126.5175 44.45) (end 123.19 44.45) (width 0.25) (layer F.Cu) (net 55))
+  (segment (start 127.7875 62.23) (end 127.7875 64.2875) (width 0.25) (layer F.Cu) (net 55))
+  (segment (start 127.7875 64.2875) (end 129.54 66.04) (width 0.25) (layer F.Cu) (net 55))
+  (segment (start 129.54 66.04) (end 149.86 66.04) (width 0.25) (layer F.Cu) (net 55))
+  (segment (start 149.86 66.04) (end 151.13 67.31) (width 0.25) (layer F.Cu) (net 55))
+  (segment (start 151.13 67.31) (end 151.13 74.93) (width 0.25) (layer F.Cu) (net 55))
+  (segment (start 151.13 74.93) (end 151.13 81.28) (width 0.25) (layer F.Cu) (net 55))
+  (segment (start 151.13 81.28) (end 151.13 90.17) (width 0.25) (layer F.Cu) (net 55))
+  (segment (start 151.13 90.17) (end 151.13 96.52) (width 0.25) (layer F.Cu) (net 55))
+  (segment (start 151.13 96.52) (end 151.13 105.41) (width 0.25) (layer F.Cu) (net 55))
+  (segment (start 151.13 105.41) (end 151.13 111.76) (width 0.25) (layer F.Cu) (net 55))
+  (segment (start 151.13 111.76) (end 151.13 121.92) (width 0.25) (layer F.Cu) (net 55))
+  (segment (start 151.13 121.92) (end 151.13 127) (width 0.25) (layer F.Cu) (net 55))
+  (via (at 151.13 67.31) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 55))
+  (segment (start 151.13 67.31) (end 151.13 74.93) (width 0.25) (layer B.Cu) (net 55))
+  (segment (start 151.13 74.93) (end 151.13 81.28) (width 0.25) (layer B.Cu) (net 55))
+  (segment (start 151.13 81.28) (end 151.13 90.17) (width 0.25) (layer B.Cu) (net 55))
+  (segment (start 151.13 90.17) (end 151.13 96.52) (width 0.25) (layer B.Cu) (net 55))
+  (segment (start 151.13 96.52) (end 151.13 105.41) (width 0.25) (layer B.Cu) (net 55))
+  (segment (start 151.13 105.41) (end 151.13 111.76) (width 0.25) (layer B.Cu) (net 55))
+  (segment (start 151.13 111.76) (end 151.13 120.65) (width 0.25) (layer B.Cu) (net 55))
+  (segment (start 151.13 120.65) (end 151.13 127) (width 0.25) (layer B.Cu) (net 55))
   (segment (start 144.07383 45.81144) (end 147.638205 49.375815) (width 0.25) (layer F.Cu) (net 56))
   (segment (start 143.53794 45.81144) (end 144.07383 45.81144) (width 0.25) (layer F.Cu) (net 56))
   (segment (start 147.638205 50.481795) (end 148.59 51.43359) (width 0.25) (layer F.Cu) (net 56))
@@ -783,10 +809,12 @@
   (via (at 141.78788 45.72) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 60))
   (segment (start 147.32 51.25212) (end 147.32 54.61) (width 0.25) (layer B.Cu) (net 60))
   (segment (start 141.78788 45.72) (end 147.32 51.25212) (width 0.25) (layer B.Cu) (net 60))
-  (segment (start 141.387881 45.320001) (end 128.669999 45.320001) (width 0.25) (layer B.Cu) (net 60))
   (segment (start 141.78788 45.72) (end 141.387881 45.320001) (width 0.25) (layer B.Cu) (net 60))
   (segment (start 124.46 49.53) (end 124.46 54.61) (width 0.25) (layer B.Cu) (net 60))
   (segment (start 128.669999 45.320001) (end 124.46 49.53) (width 0.25) (layer B.Cu) (net 60))
+  (segment (start 141.78788 45.72) (end 140.97 44.90212) (width 0.25) (layer B.Cu) (net 60))
+  (segment (start 140.97 44.90212) (end 129.08788 44.90212) (width 0.25) (layer B.Cu) (net 60))
+  (segment (start 129.08788 44.90212) (end 128.27 45.72) (width 0.25) (layer B.Cu) (net 60))
   (segment (start 123.19 55.88) (end 123.19 58.9025) (width 0.25) (layer F.Cu) (net 61))
   (segment (start 125.73 53.34) (end 123.19 55.88) (width 0.25) (layer F.Cu) (net 61))
   (segment (start 127.61106 53.34) (end 125.73 53.34) (width 0.25) (layer F.Cu) (net 61))
@@ -802,6 +830,30 @@
   (segment (start 123.50858 51.75142) (end 121.92 53.34) (width 0.25) (layer F.Cu) (net 62))
   (segment (start 121.92 59.2075) (end 123.19 60.4775) (width 0.25) (layer F.Cu) (net 62))
   (segment (start 121.92 53.34) (end 121.92 59.2075) (width 0.25) (layer F.Cu) (net 62))
+  (segment (start 126.2125 62.23) (end 122.4025 66.04) (width 0.25) (layer F.Cu) (net 62))
+  (segment (start 122.4025 66.04) (end 121.92 66.04) (width 0.25) (layer F.Cu) (net 62))
+  (segment (start 120.65 132.08) (end 120.65 133.35) (width 0.25) (layer F.Cu) (net 62))
+  (segment (start 121.92 66.04) (end 120.65 67.31) (width 0.25) (layer F.Cu) (net 62))
+  (segment (start 120.65 67.31) (end 120.65 82.55) (width 0.25) (layer F.Cu) (net 62))
+  (segment (start 120.65 82.55) (end 120.65 88.9) (width 0.25) (layer F.Cu) (net 62))
+  (segment (start 120.65 88.9) (end 120.65 97.79) (width 0.25) (layer F.Cu) (net 62))
+  (segment (start 120.65 97.79) (end 120.65 104.14) (width 0.25) (layer F.Cu) (net 62))
+  (segment (start 120.65 104.14) (end 120.65 113.03) (width 0.25) (layer F.Cu) (net 62))
+  (segment (start 120.65 113.03) (end 120.65 119.38) (width 0.25) (layer F.Cu) (net 62))
+  (segment (start 120.65 119.38) (end 120.65 128.27) (width 0.25) (layer F.Cu) (net 62))
+  (segment (start 120.65 128.27) (end 120.65 132.08) (width 0.25) (layer F.Cu) (net 62))
+  (via (at 122.4025 66.04) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 62))
+  (segment (start 122.4025 66.04) (end 121.92 66.04) (width 0.25) (layer B.Cu) (net 62))
+  (segment (start 121.92 66.04) (end 120.65 67.31) (width 0.25) (layer B.Cu) (net 62))
+  (segment (start 120.65 67.31) (end 120.65 73.66) (width 0.25) (layer B.Cu) (net 62))
+  (segment (start 120.65 73.66) (end 120.65 82.55) (width 0.25) (layer B.Cu) (net 62))
+  (segment (start 120.65 82.55) (end 120.65 88.9) (width 0.25) (layer B.Cu) (net 62))
+  (segment (start 120.65 88.9) (end 120.65 91.44) (width 0.25) (layer B.Cu) (net 62))
+  (segment (start 120.65 91.44) (end 120.65 102.87) (width 0.25) (layer B.Cu) (net 62))
+  (segment (start 120.65 102.87) (end 120.65 113.03) (width 0.25) (layer B.Cu) (net 62))
+  (segment (start 120.65 113.03) (end 120.65 119.38) (width 0.25) (layer B.Cu) (net 62))
+  (segment (start 120.65 119.38) (end 120.65 128.27) (width 0.25) (layer B.Cu) (net 62))
+  (segment (start 120.65 128.27) (end 120.65 133.35) (width 0.25) (layer B.Cu) (net 62))
   (segment (start 129.13995 53.51018) (end 128.27 54.38013) (width 0.25) (layer F.Cu) (net 63))
   (segment (start 129.54 53.51018) (end 129.13995 53.51018) (width 0.25) (layer F.Cu) (net 63))
   (segment (start 128.27 54.38013) (end 127.22987 54.38013) (width 0.25) (layer F.Cu) (net 63))
@@ -817,4 +869,274 @@
   (segment (start 124.745 47.955) (end 124.46 48.24) (width 0.25) (layer F.Cu) (net 65))
   (segment (start 127 47.955) (end 124.745 47.955) (width 0.25) (layer F.Cu) (net 65))
 
+  (zone (net 62) (net_name /SOIL_READ) (layer F.Cu) (tstamp 0) (hatch edge 0.508)
+    (connect_pads (clearance 0.508))
+    (min_thickness 0.254)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 120.65 67.31) (xy 149.86 67.31) (xy 149.86 73.66) (xy 120.65 73.66)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 149.733 73.533) (xy 120.777 73.533) (xy 120.777 67.437) (xy 149.733 67.437)
+      )
+    )
+  )
+  (zone (net 62) (net_name /SOIL_READ) (layer F.Cu) (tstamp 5BC16751) (hatch edge 0.508)
+    (connect_pads (clearance 0.508))
+    (min_thickness 0.254)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 120.65 82.55) (xy 149.86 82.55) (xy 149.86 88.9) (xy 120.65 88.9)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 149.733 88.773) (xy 120.777 88.773) (xy 120.777 82.677) (xy 149.733 82.677)
+      )
+    )
+  )
+  (zone (net 55) (net_name GND) (layer F.Cu) (tstamp 5BC1676F) (hatch edge 0.508)
+    (connect_pads (clearance 0.508))
+    (min_thickness 0.254)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 121.92 90.17) (xy 151.13 90.17) (xy 151.13 96.52) (xy 121.92 96.52)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 151.003 96.393) (xy 122.047 96.393) (xy 122.047 90.297) (xy 151.003 90.297)
+      )
+    )
+  )
+  (zone (net 62) (net_name /SOIL_READ) (layer F.Cu) (tstamp 5BC16772) (hatch edge 0.508)
+    (connect_pads (clearance 0.508))
+    (min_thickness 0.254)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 120.65 97.79) (xy 149.86 97.79) (xy 149.86 104.14) (xy 120.65 104.14)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 149.733 104.013) (xy 120.777 104.013) (xy 120.777 97.917) (xy 149.733 97.917)
+      )
+    )
+  )
+  (zone (net 55) (net_name GND) (layer F.Cu) (tstamp 5BC16776) (hatch edge 0.508)
+    (connect_pads (clearance 0.508))
+    (min_thickness 0.254)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 121.92 105.41) (xy 151.13 105.41) (xy 151.13 111.76) (xy 121.92 111.76)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 151.003 111.633) (xy 122.047 111.633) (xy 122.047 105.537) (xy 151.003 105.537)
+      )
+    )
+  )
+  (zone (net 62) (net_name /SOIL_READ) (layer F.Cu) (tstamp 5BC1677A) (hatch edge 0.508)
+    (connect_pads (clearance 0.508))
+    (min_thickness 0.254)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 120.65 113.03) (xy 149.86 113.03) (xy 149.86 119.38) (xy 120.65 119.38)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 149.733 119.253) (xy 120.777 119.253) (xy 120.777 113.157) (xy 149.733 113.157)
+      )
+    )
+  )
+  (zone (net 55) (net_name GND) (layer F.Cu) (tstamp 5BC1677D) (hatch edge 0.508)
+    (connect_pads (clearance 0.508))
+    (min_thickness 0.254)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 121.92 120.65) (xy 151.13 120.65) (xy 151.13 127) (xy 121.92 127)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 151.003 126.873) (xy 122.047 126.873) (xy 122.047 120.777) (xy 151.003 120.777)
+      )
+    )
+  )
+  (zone (net 62) (net_name /SOIL_READ) (layer F.Cu) (tstamp 0) (hatch edge 0.508)
+    (connect_pads (clearance 0.508))
+    (min_thickness 0.254)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 120.65 128.27) (xy 151.13 128.27) (xy 151.13 133.35) (xy 135.89 140.97) (xy 120.65 133.35)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 151.003 133.27151) (xy 135.89 140.82801) (xy 120.777 133.27151) (xy 120.777 128.397) (xy 151.003 128.397)
+      )
+    )
+  )
+  (zone (net 55) (net_name GND) (layer F.Cu) (tstamp 5BC16A00) (hatch edge 0.508)
+    (connect_pads (clearance 0.508))
+    (min_thickness 0.254)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 121.92 74.93) (xy 151.13 74.93) (xy 151.13 81.28) (xy 121.92 81.28)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 151.003 81.153) (xy 122.047 81.153) (xy 122.047 75.057) (xy 151.003 75.057)
+      )
+    )
+  )
+  (zone (net 62) (net_name /SOIL_READ) (layer B.Cu) (tstamp 0) (hatch edge 0.508)
+    (connect_pads (clearance 0.508))
+    (min_thickness 0.254)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 120.65 67.31) (xy 149.86 67.31) (xy 149.86 73.66) (xy 120.65 73.66)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 149.733 73.533) (xy 120.777 73.533) (xy 120.777 67.437) (xy 149.733 67.437)
+      )
+    )
+  )
+  (zone (net 62) (net_name /SOIL_READ) (layer B.Cu) (tstamp 0) (hatch edge 0.508)
+    (connect_pads (clearance 0.508))
+    (min_thickness 0.254)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 120.65 82.55) (xy 149.86 82.55) (xy 149.86 88.9) (xy 120.65 88.9)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 149.733 88.773) (xy 120.777 88.773) (xy 120.777 82.677) (xy 149.733 82.677)
+      )
+    )
+  )
+  (zone (net 62) (net_name /SOIL_READ) (layer B.Cu) (tstamp 0) (hatch edge 0.508)
+    (connect_pads (clearance 0.508))
+    (min_thickness 0.254)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 120.65 97.79) (xy 149.86 97.79) (xy 149.86 104.14) (xy 120.65 104.14)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 149.733 104.013) (xy 120.777 104.013) (xy 120.777 97.917) (xy 149.733 97.917)
+      )
+    )
+  )
+  (zone (net 62) (net_name /SOIL_READ) (layer B.Cu) (tstamp 0) (hatch edge 0.508)
+    (connect_pads (clearance 0.508))
+    (min_thickness 0.254)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 120.65 113.03) (xy 149.86 113.03) (xy 149.86 119.38) (xy 120.65 119.38)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 149.733 119.253) (xy 120.777 119.253) (xy 120.777 113.157) (xy 149.733 113.157)
+      )
+    )
+  )
+  (zone (net 62) (net_name /SOIL_READ) (layer B.Cu) (tstamp 0) (hatch edge 0.508)
+    (connect_pads (clearance 0.508))
+    (min_thickness 0.254)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 120.65 128.27) (xy 151.13 128.27) (xy 151.13 133.35) (xy 135.89 140.97) (xy 120.65 133.35)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 151.003 133.27151) (xy 135.89 140.82801) (xy 120.777 133.27151) (xy 120.777 128.397) (xy 151.003 128.397)
+      )
+    )
+  )
+  (zone (net 55) (net_name GND) (layer B.Cu) (tstamp 0) (hatch edge 0.508)
+    (connect_pads (clearance 0.508))
+    (min_thickness 0.254)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 121.92 74.93) (xy 151.13 74.93) (xy 151.13 81.28) (xy 121.92 81.28)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 151.003 81.153) (xy 122.047 81.153) (xy 122.047 75.057) (xy 151.003 75.057)
+      )
+    )
+  )
+  (zone (net 55) (net_name GND) (layer B.Cu) (tstamp 0) (hatch edge 0.508)
+    (connect_pads (clearance 0.508))
+    (min_thickness 0.254)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 121.92 90.17) (xy 151.13 90.17) (xy 151.13 96.52) (xy 121.92 96.52)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 151.003 96.393) (xy 122.047 96.393) (xy 122.047 90.297) (xy 151.003 90.297)
+      )
+    )
+  )
+  (zone (net 55) (net_name GND) (layer B.Cu) (tstamp 0) (hatch edge 0.508)
+    (connect_pads (clearance 0.508))
+    (min_thickness 0.254)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 121.92 105.41) (xy 151.13 105.41) (xy 151.13 111.76) (xy 121.92 111.76)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 151.003 111.633) (xy 122.047 111.633) (xy 122.047 105.537) (xy 151.003 105.537)
+      )
+    )
+  )
+  (zone (net 55) (net_name GND) (layer B.Cu) (tstamp 0) (hatch edge 0.508)
+    (connect_pads (clearance 0.508))
+    (min_thickness 0.254)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 121.92 120.65) (xy 151.13 120.65) (xy 151.13 127) (xy 121.92 127)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 151.003 126.873) (xy 122.047 126.873) (xy 122.047 120.777) (xy 151.003 120.777)
+      )
+    )
+  )
 )
